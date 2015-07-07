@@ -62,9 +62,8 @@ extern NSTimeInterval const kSMCalloutViewRepositionDelayForUIScrollView;
 
 @property (nonatomic, assign) SMCalloutAnimation presentAnimation, dismissAnimation; // default SMCalloutAnimationBounce, SMCalloutAnimationFade respectively
 
-
 // Returns a new instance of SMCalloutView if running on iOS 7 or better, otherwise a new instance of SMClassicCalloutView if available.
-+ (SMCalloutView *)platformCalloutView;
++ (instancetype)calloutView;
 
 // Presents a callout view by adding it to "inView" and pointing at the given rect of inView's bounds.
 // Constrains the callout to the bounds of the given view. Optionally scrolls the given rect into view (plus margins)
