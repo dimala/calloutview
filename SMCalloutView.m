@@ -1,4 +1,3 @@
-#import <PixateFreestyle/UIView+PXStyling.h>
 #import "FrameAccessor.h"
 #import "SMCalloutView.h"
 
